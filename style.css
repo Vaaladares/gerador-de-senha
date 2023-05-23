@@ -19,7 +19,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    width: 480px;
+    width: 450px;
     margin-top: 25px;
 }
 
@@ -46,7 +46,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    width: 480px;
+    width: 450px;
     align-items: center;
     margin-top: 20px;
 }
@@ -85,6 +85,53 @@ body {
     border-radius: 3px;
     transition: all 0.5s ease-in-out;
 }
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    .logo {
+        width: 310px;
+    }
+
+    .container-input {
+        width: 250px;
+    }
+
+    .container-password {
+        width: 250px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+
+    .logo {
+        width: 500px;
+    }
+
+    .container-input {
+        width: 300px;
+    }
+
+    .container-password {
+        width: 300px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    
+    .logo {
+        width: 600px;
+    }
+
+    .container-input {
+        width: 380px;
+    }
+
+    .container-password {
+        width: 380px;
+    }
+}
+
 
 
 
