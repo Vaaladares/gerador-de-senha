@@ -1,2 +1,1 @@
-# gerador-de-senha
- Gerador de senha aleatória 
+Através da linguagem de programação esse site tem o poder de entregar senhas aleatória para utilizar no dia a dia. Senhas de diversos tamanhos e diversos caracteres também, muito util e pratico de ultizilar.
